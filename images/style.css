@@ -215,10 +215,47 @@ input[type="radio"]
 
 .faq small{
     font-size: 30px;
-
 }
 
 .faq .email-signUp{
     max-width: 600px;
     margin: 20px auto 60px;
+}
+
+.footer{
+    padding: 50px 15% 10px;
+    border: 1px solid #333;
+    color: #777;
+}
+
+.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom:30px ;
+}
+
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer .col a{
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+.footer .language-btn{
+    color: #fff;
+    border-radius: 3px;
+    padding: 10px 20px;
+
 }
